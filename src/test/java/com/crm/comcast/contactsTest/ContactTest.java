@@ -17,9 +17,10 @@ public class ContactTest
 	  System.out.println("===Contact is edited==");
   }
   
-
+  //Test case is updated
   @Test(groups = "RegressionTest")
-  public void deletecontactTest() {
+  public void deletecontactTest()
+  {
 	  System.out.println("===Contact is deleted==");
   }
 
