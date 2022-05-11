@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-10T17:02:18 IST" name="Suite" finished-at="2022-05-10T17:02:18 IST" duration-ms="201">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ContactTest.createcontactTest()[pri:0, instance:com.crm.comcast.contactsTest.ContactTest@59af0466]" name="createcontactTest" class="com.crm.comcast.contactsTest.ContactTest"/>
+        <method signature="OrganizationTest.createorgTest()[pri:0, instance:com.crm.comcast.organizationTest.OrganizationTest@272ed83b]" name="createorgTest" class="com.crm.comcast.organizationTest.OrganizationTest"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2022-05-10T17:02:18 IST" name="Test" finished-at="2022-05-10T17:02:18 IST" duration-ms="201">
+      <class name="com.crm.comcast.contactsTest.ContactTest">
+        <test-method signature="createcontactTest()[pri:0, instance:com.crm.comcast.contactsTest.ContactTest@59af0466]" started-at="2022-05-10T17:02:18 IST" name="createcontactTest" finished-at="2022-05-10T17:02:18 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactTest -->
+      </class> <!-- com.crm.comcast.contactsTest.ContactTest -->
+      <class name="com.crm.comcast.organizationTest.OrganizationTest">
+        <test-method signature="createorgTest()[pri:0, instance:com.crm.comcast.organizationTest.OrganizationTest@272ed83b]" started-at="2022-05-10T17:02:18 IST" name="createorgTest" finished-at="2022-05-10T17:02:18 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorgTest -->
+      </class> <!-- com.crm.comcast.organizationTest.OrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
